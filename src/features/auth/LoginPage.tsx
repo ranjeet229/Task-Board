@@ -51,7 +51,7 @@ export function LoginPage() {
               label="Email"
               type="email"
               autoComplete="email"
-              placeholder="your@example.com"
+              placeholder="your@domain.com"
               error={errors.email?.message}
               {...register('email')}
             />
@@ -59,7 +59,7 @@ export function LoginPage() {
               label="Password"
               type="password"
               autoComplete="current-password"
-              placeholder="••••••••"
+              placeholder="••••••"
               error={errors.password?.message}
               {...register('password')}
             />
